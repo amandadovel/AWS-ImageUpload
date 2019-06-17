@@ -1,0 +1,159 @@
+body {
+    background: url("../images/love.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: right;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+#fullname, #image {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+
+/*
+    border-bottom: 1px solid #335569;
+    padding-bottom: 13px;
+*/
+
+.range-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+input[type=range] {
+    border: none !important;
+}
+
+.score {
+    color: #335569 !important;
+}
+
+.active {
+    color: #335569 !important;
+}
+
+input, 
+input.valid[type=text]:not(.browser-default) {
+    border-bottom-color: #335569 !important;
+}
+
+input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid>input.select-dropdown {
+    border-bottom: 1px solid #335569;
+    -webkit-box-shadow: 0 1px 0 0 #335569;
+    box-shadow: 0 1px 0 0 #335569;
+}
+
+/* home page style */
+
+#infobox {
+    background-color: #dfd7cec0;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    right: 110px;
+    box-shadow: 2px 2px 10px 2px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn, .btn-large, .btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color:#335569 !important;
+    text-align: center;
+    letter-spacing: .5px;
+    border-radius: 5px;
+}
+
+.subbtn:hover {
+    box-shadow: 2px 2px 10px 2px;
+}
+
+/* Survey page style */
+
+h2 {
+    text-align: right;
+    font-family: 'Black Han Sans', sans-serif;
+    margin-right: -120px;
+}
+
+#survey {
+        background-color:#dfd7cec0;
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        right: 80px;
+        box-shadow: 2px 2px 10px 2px;
+        border-radius: 5px;
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .thumb, .score {
+        background-color:#335569 !important;
+    }
+
+   .score {
+        background-color: black !important;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        background-color: #335569;
+      }
+
+      /* modal style */
+    h4 {
+        text-align: center;
+        font-family: 'Black Han Sans', sans-serif;
+    }
+
+    #match-name {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    input[type=text]:not(.browser-default):focus:not([readonly]) {
+        border-bottom: 1px solid #335569;
+        -webkit-box-shadow: 0 1px 0 0 #335569;
+        box-shadow: 0 1px 0 0 #335569;
+    }
+  
+#loader {
+    background: rgba(14,192, 188, .8);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100vw;
+    color: #fff;
+    z-index: 99999;
+    padding-top: 10%;
+}
+#loader h2 {
+    text-align: center;
+}
+
+ .hide {
+    display: none;
+ } 
+
+ #modal1 img {
+     height: 300px;
+     width: 300px;
+ }
+
+#modal1 h2, #modal h5 {
+        margin-right: 0px;
+}
+.modal {
+     height: 550px !important;
+     max-height: 100% !important;
+ }

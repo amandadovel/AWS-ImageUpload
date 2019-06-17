@@ -1,0 +1,30 @@
+{
+  "name": "friendFinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandadovel/friendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandadovel/friendFinder/issues"
+  },
+  "homepage": "https://github.com/amandadovel/friendFinder#readme",
+  "dependencies": {
+    "aws-sdk": "^2.476.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "nouislider": "^13.1.5",
+    "path": "^0.12.7",
+    "uuid": "^3.3.2"
+  }
+}
