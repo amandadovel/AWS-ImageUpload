@@ -38,7 +38,7 @@ $(document).ready(function () {
                         $("#modal1").modal("open");
                     } else {
                         $("#match-name").text(data.name);
-                        $("#match-image").attr("src", `https://auth-demo.s3.amazonaws.com/${data.image}.jpg`);
+                        $("#match-image").attr("src", `https://friend-finder-upload.s3.amazonaws.com/${data.image}.jpg`);
                         $('.modal').modal();
                         $("#modal1").modal("open");
                     }
